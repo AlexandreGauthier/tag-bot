@@ -1,0 +1,14 @@
+[package]
+name = "tag-bot"
+version = "0.1.0"
+authors = ["Alexandre Gauthier"]
+edition = "2018"
+
+[dependencies]
+toml = "0.4"
+chrono = "0.4"
+serde = "1.0"
+
+[dependencies.serenity]
+version = "0.8"
+features = ["utils"]

@@ -1,0 +1,11 @@
+token = ""
+
+[roles]
+console = 000000000000000000 # Role id here
+tag     = 000000000000000000
+
+# Example tag
+[[tags]]
+channel_target = 000000000000000000
+emoji_name = "emoji_name_here"
+message_counter = 0  # Wait x messages before deleting the original
