@@ -1,11 +1,17 @@
 token = ""
 
 [roles]
-console = 000000000000000000 # Role id here
+console = 000000000000000000 # Role id
 tag     = 000000000000000000
 
 # Example tag
 [[tags]]
+channel_target = 000000000000000000 # Channel id
+emoji_name = ""
+message_counter = 0  # Delete message after x other messages have been posted to the channel
+
+# Example tag 2 
+[[tags]]
 channel_target = 000000000000000000
-emoji_name = "emoji_name_here"
-message_counter = 0  # Wait x messages before deleting the original
+emoji_name = ""
+message_counter = 0
